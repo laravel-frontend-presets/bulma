@@ -39,7 +39,7 @@ class BulmaPreset extends Preset
     protected static function updatePackageArray(array $packages)
     {
         return [
-            'bulma' => '^0.4.3',
+            'bulma' => '^0.4.4',
         ] + Arr::except($packages, ['bootstrap-sass', 'foundation-sites', 'uikit']);
     }
 
