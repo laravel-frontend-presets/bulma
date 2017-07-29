@@ -4,13 +4,3 @@
 
 // Variables
 @import "bulma";
-
-/*
-* Simple fix for Bulma 0.4.3 bug, which displays extra scroll bar when using columns
-* Issue have been documented here: https://github.com/jgthms/bulma/issues/867
-*/
-
-body
-{
-    overflow-x: visible;
-}
