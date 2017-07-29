@@ -115,7 +115,7 @@
                 </div>
 
                 <div class="foundation_button_test">
-                    <p class="framwork_title">Bulma 0.4.3 Buttons</p>
+                    <p class="framwork_title">Bulma 0.4.4</p>
                     <div class="block">
                       <a class="button is-primary">Primary</a>
                       <a class="button is-info">Info</a>
