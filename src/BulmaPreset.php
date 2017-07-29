@@ -86,6 +86,9 @@ class BulmaPreset extends Preset
      */
     protected static function addAuthTemplates()
     {
+        // Add Home controller
+        copy(__DIR__.'/bulma-stubs/Controllers/HomeController.php', app_path('Http/Controllers/HomeController.php'));
+
         // Add Auth route in 'routes/web.php'
         $auth_route_entry = "Auth::routes();\n\nRoute::get('/home', 'HomeController@index')->name('home');\n\n";
         file_put_contents('./routes/web.php', $auth_route_entry, FILE_APPEND);
