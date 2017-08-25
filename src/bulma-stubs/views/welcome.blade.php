@@ -79,14 +79,12 @@
                 padding-top: 20px;
             }
 
-
             .m-b-md {
                 margin-bottom: 30px;
             }
         </style>
     </head>
     <body>
-
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -100,7 +98,6 @@
             @endif
 
             <div class="content">
-
                 <div class="title m-b-md">
                     Laravel
                     <p class="versioninfo">Version {{ app()->version() }}</p>
@@ -116,20 +113,16 @@
 
                 <div class="foundation_button_test">
                     <p class="framwork_title">Bulma 0.5.1</p>
+
                     <div class="block">
-                      <a class="button is-primary">Primary</a>
-                      <a class="button is-info">Info</a>
-                      <a class="button is-success">Success</a>
-                      <a class="button is-warning">Warning</a>
-                      <a class="button is-danger">Danger</a>
+                        <a class="button is-primary">Primary</a>
+                        <a class="button is-info">Info</a>
+                        <a class="button is-success">Success</a>
+                        <a class="button is-warning">Warning</a>
+                        <a class="button is-danger">Danger</a>
                     </div>
                 </div>
-
             </div>
         </div>
-
-        <!-- Scripts -->
-        <script src="{{ asset('js/app.js') }}"></script>
-
     </body>
 </html>
