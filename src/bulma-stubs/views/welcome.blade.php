@@ -112,7 +112,7 @@
                 </div>
 
                 <div class="foundation_button_test">
-                    <p class="framwork_title">Bulma 0.5.2</p>
+                    <p class="framwork_title">Bulma 0.5.3</p>
 
                     <div class="block">
                         <a class="button is-primary">Primary</a>
