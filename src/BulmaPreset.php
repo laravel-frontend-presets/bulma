@@ -17,6 +17,7 @@ class BulmaPreset extends Preset
     {
         static::updatePackages();
         static::updateSass();
+        static::updateBootstrapping();
 
         if($withAuth)
         {
