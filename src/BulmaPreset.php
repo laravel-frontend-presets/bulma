@@ -63,6 +63,22 @@ class BulmaPreset extends Preset
         copy(__DIR__.'/bulma-stubs/app.scss', resource_path('assets/sass/app.scss'));
     }
 
+
+    /**
+     * Update the bootstrapping files.
+     *
+     * @return void
+     */
+    protected static function updateBootstrapping()
+    {
+        (new Filesystem)->delete(
+            resource_path('assets/js/bootstrap.js')
+        );
+
+        copy(__DIR__.'/bulma-stubs/bootstrap.js', resource_path('assets/js/bootstrap.js'));
+    }
+
+
     /**
      * Update the default welcome page file with Bulma buttons.
      *
