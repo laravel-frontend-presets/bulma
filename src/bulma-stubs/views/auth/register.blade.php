@@ -73,8 +73,7 @@
                             <div class="field-body">
                                 <div class="field">
                                     <p class="control">
-                                        <input class="input" id="password" type="password" name="password"
-                                               aria-describedby="passwordHelpText" required>
+                                        <input class="input" id="password" type="password" name="password" required>
                                     </p>
 
                                     @if ($errors->has('password'))
