@@ -41,6 +41,7 @@ class BulmaPreset extends Preset
     {
         return [
             'bulma' => '^0.6.1',
+            'bulma-extensions': '^0.2.1',
         ] + Arr::except($packages, ['bootstrap-sass', 'foundation-sites']);
     }
 
@@ -61,6 +62,7 @@ class BulmaPreset extends Preset
 
         copy(__DIR__.'/bulma-stubs/initial-variables.sass', resource_path('assets/sass/initial-variables.sass'));
         copy(__DIR__.'/bulma-stubs/bulma.sass', resource_path('assets/sass/bulma.sass'));
+        copy(__DIR__.'/bulma-stubs/bulma-extensions.sass', resource_path('assets/sass/bulma-extensions.sass'));
         copy(__DIR__.'/bulma-stubs/app.scss', resource_path('assets/sass/app.scss'));
     }
 
