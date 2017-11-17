@@ -16,7 +16,7 @@ Preset for Bulma scaffolding on new Laravel 5.5.x project.
 8. `php artisan serve` (or equivalent) to run server and test preset.
 
 ## Bulma Extensions
-It is a set of missing [Bulma.io](https://bulma.io/) functionalities in the form of extensions. More info at [https://wikiki.github.io/bulma-extensions/overview](https://wikiki.github.io/bulma-extensions/overview)
+It is a set of missing [Bulma.io](https://bulma.io/) functionalities in the form of extensions. More info at [https://wikiki.github.io/](https://wikiki.github.io/)
 
 ## Screenshots
 ![Bulma login screen](/screenshots/bulma_login_screen.jpg)
