@@ -41,7 +41,7 @@ class BulmaPreset extends Preset
     {
         return [
             'bulma' => '^0.6.1',
-            'bulma-extensions' => '^0.4.2',
+            'bulma-extensions' => '^0.5.2',
         ] + Arr::except($packages, ['bootstrap-sass', 'foundation-sites']);
     }
 
@@ -74,11 +74,13 @@ class BulmaPreset extends Preset
      */
     protected static function updateBootstrapping()
     {
-        (new Filesystem)->delete(
-            resource_path('assets/js/bootstrap.js')
-        );
+        $file = new Filesystem;
+
+        $file->delete(resource_path('assets/js/bootstrap.js'));
+        $file->delete(resource_path('assets/js/app.js'));
 
         copy(__DIR__.'/bulma-stubs/bootstrap.js', resource_path('assets/js/bootstrap.js'));
+        copy(__DIR__.'/bulma-stubs/app.js', resource_path('assets/js/app.js'));
     }
 
 
