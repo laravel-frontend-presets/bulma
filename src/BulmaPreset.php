@@ -81,6 +81,7 @@ class BulmaPreset extends Preset
 
         copy(__DIR__.'/bulma-stubs/bootstrap.js', resource_path('assets/js/bootstrap.js'));
         copy(__DIR__.'/bulma-stubs/app.js', resource_path('assets/js/app.js'));
+        copy(__DIR__.'/bulma-stubs/bulma-extensions.js', resource_path('assets/js/bulma-extensions.js'));
     }
 
 
