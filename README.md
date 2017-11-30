@@ -1,4 +1,4 @@
-# Laravel 5.5.x Front-end Preset For Bulma
+# Bulma Frontend Preset For Laravel Framework 5.5 and Up
 
 Preset for Bulma scaffolding on new Laravel 5.5.x project.
 
