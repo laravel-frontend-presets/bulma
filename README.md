@@ -17,7 +17,7 @@ Preset for Bulma scaffolding on new Laravel 5.5.x project.
 
 ## Bulma Extensions
 1. It is a set of missing [Bulma.io](https://bulma.io/) functionalities in the form of extensions. More info at [https://wikiki.github.io/](https://wikiki.github.io/)
-2. Adjust `bulma.sass`, `bulma-extensions.sasss`, `bulma-extensions.js` and `app.js` as per your need.
+2. Adjust `bulma.sass`, `bulma-extensions.sass`, `bulma-extensions.js` and `app.js` as per your need.
 
 ## Screenshots
 ![Bulma login screen](/screenshots/bulma_login_screen.jpg)
