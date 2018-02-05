@@ -2,7 +2,7 @@
 
 Preset for Bulma scaffolding on new Laravel 5.5.x project.
 
-*Current version*: **Bulma 0.6.2** + **Bulma Extensions 0.7.2**
+*Current version*: **Bulma 0.6.2** + **Bulma Extensions 0.7.5**
 
 
 ## Usage
