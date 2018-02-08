@@ -1,10 +1,10 @@
 {
     "name": "laravel-frontend-presets/bulma",
-    "description": "Laravel 5.5.x Front-end preset for Bulma",
+    "description": "Laravel 5.x.x Front-end preset for Bulma",
     "keywords": ["laravel", "preset", "bulma"],
     "license": "MIT",
     "require": {
-        "laravel/framework": "5.5.*"
+        "laravel/framework": "~5.5"
     },
     "autoload": {
         "psr-4": {
