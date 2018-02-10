@@ -1,6 +1,6 @@
 # Bulma Frontend Preset For Laravel Framework 5.5 and Up
 
-Preset for Bulma scaffolding on new Laravel 5.5.x project.
+Bulma Frontend Preset For Laravel Framework 5.5 and Up
 
 *Current version*: **Bulma 0.6.2** + **Bulma Extensions 0.7.5**
 
