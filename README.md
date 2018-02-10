@@ -6,9 +6,9 @@ Preset for Bulma scaffolding on new Laravel 5.5.x project.
 
 
 ## Usage
-1. Fresh install Laravel 5.5.x and `cd` to your app.
-2. Install this preset via `composer require laravel-frontend-presets/bulma`. Laravel 5.5.x will automatically discover this package. No need to register the service provider.
-3. Use `php artisan preset bulma` for basic Bulma preset. **OR** Use `php artisan preset bulma-auth` for basic preset, Auth route entry and Bulma Auth views in one go. (**NOTE**: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php`)
+1. Fresh install Laravel 5.5 (and up) and `cd` to your app.
+2. Install this preset via `composer require laravel-frontend-presets/bulma`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
+3. Use `php artisan preset bulma` for basic Bulma preset. **OR** Use `php artisan preset bulma-auth` for basic preset, Auth route entry and Bulma Auth views in one go.
 4. `npm install`
 5. `npm run dev`
 6. Configure your favorite database (mysql, sqlite etc.)
