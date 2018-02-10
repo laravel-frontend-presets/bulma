@@ -1,9 +1,9 @@
 
-require('bulma-extensions/bulma-accordion/dist/accordion');
-require('bulma-extensions/bulma-calendar/dist/datepicker');
-require('bulma-extensions/bulma-carousel/dist/carousel');
-require('bulma-extensions/bulma-iconpicker/dist/iconPicker');
-require('bulma-extensions/bulma-quickview/dist/quickview');
-require('bulma-extensions/bulma-slider/dist/slider');
-require('bulma-extensions/bulma-steps/dist/steps');
-require('bulma-extensions/bulma-tagsinput/dist/tagsinput');
+require('bulma-extensions/bulma-accordion/dist/bulma-accordion');
+require('bulma-extensions/bulma-calendar/dist/bulma-calendar');
+require('bulma-extensions/bulma-carousel/dist/bulma-carousel');
+require('bulma-extensions/bulma-iconpicker/dist/bulma-iconPicker');
+require('bulma-extensions/bulma-quickview/dist/bulma-quickview');
+require('bulma-extensions/bulma-slider/dist/bulma-slider');
+require('bulma-extensions/bulma-steps/dist/bulma-steps');
+require('bulma-extensions/bulma-tagsinput/dist/bulma-tagsinput');
