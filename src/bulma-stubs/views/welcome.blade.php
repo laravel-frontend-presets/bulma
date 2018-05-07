@@ -112,7 +112,7 @@
                 </div>
 
                 <div class="foundation_button_test">
-                    <p class="framwork_title">Bulma 0.7.0</p>
+                    <p class="framwork_title">Bulma 0.7.1</p>
                     <p class="framwork_title">Bulma Extension 1.0.14</p>
 
                     <div class="block">
