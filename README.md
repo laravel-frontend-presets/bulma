@@ -2,7 +2,7 @@
 
 Bulma Frontend Preset For Laravel Framework 5.5 and Up
 
-*Current version*: **Bulma 0.7.1** + **Bulma Extensions 1.0.14**
+*Current version*: **Bulma 0.7.1** + **Bulma Extensions 1.0.30**
 
 
 ## Usage
