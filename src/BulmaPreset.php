@@ -41,7 +41,7 @@ class BulmaPreset extends Preset
     {
         return [
             'bulma' => '^0.7.1',
-            'bulma-extensions' => '^1.0.30',
+            'bulma-extensions' => '^1.0.31',
         ] + Arr::except($packages, ['bootstrap-sass', 'foundation-sites']);
     }
 
