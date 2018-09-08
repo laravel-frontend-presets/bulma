@@ -22,10 +22,11 @@ class BulmaPreset extends Preset
         if($withAuth)
         {
             static::addAuthTemplates();
+            static::updateVerifyEmailPage();
         }
         else
         {
-            static::updateWelcomePage();
+            static::updateWelcomePage();   
         }
 
         static::removeNodeModules();
@@ -99,6 +100,17 @@ class BulmaPreset extends Preset
 
         // copy new one with Bulma buttons
         copy(__DIR__.'/bulma-stubs/views/welcome.blade.php', resource_path('views/welcome.blade.php'));
+    }
+    
+    protected static function updateVerifyEmailPage()
+    {
+          // remove default verify email page
+        (new Filesystem)->delete(
+            resource_path('views/auth/verify.blade.php')
+        );
+
+        // copy new verify email page
+        copy(__DIR__.'/bulma-stubs/views/auth/verify.blade.php', resource_path('views/auth/verify.blade.php'));
     }
 
     /**
