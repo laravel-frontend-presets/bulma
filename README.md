@@ -16,7 +16,8 @@ Bulma Frontend Preset For Laravel Framework 5.5 and Up
 8. `php artisan serve` (or equivalent) to run server and test preset.
 
 ## Bulma Pagination Template
-1. Vendor publish and replace the code from here [default.blade.php](https://gist.github.com/Laraveldeep/0797c5a4079e3a2a0ba5b2b0e98f0357)
+1. Upto Laravel 5.6 - Vendor publish and replace the code from here [default.blade.php](https://gist.github.com/Laraveldeep/0797c5a4079e3a2a0ba5b2b0e98f0357)
+1. Laravel 5.7 and up - Vendor publish and replace the code from here [bootstrap-4.blade.php](https://gist.github.com/Laraveldeep/362490aead2fc4b2fd15c3aae24254cf)
 
 ## Bulma Extensions
 1. It is a set of missing [Bulma.io](https://bulma.io/) functionalities in the form of extensions. More info at [https://wikiki.github.io/](https://wikiki.github.io/)
