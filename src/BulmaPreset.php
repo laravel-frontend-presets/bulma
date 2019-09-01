@@ -40,8 +40,8 @@ class BulmaPreset extends Preset
     protected static function updatePackageArray(array $packages)
     {
         return [
-            'bulma' => '^0.7.2',
-            'bulma-extensions' => '^4.0.0',
+            'bulma' => '^0.7.5',
+            'bulma-extensions' => '^6.0.0',
         ] + Arr::except($packages, ['bootstrap']);
     }
 
