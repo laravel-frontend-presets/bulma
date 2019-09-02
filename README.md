@@ -21,7 +21,7 @@ Bulma Frontend Preset For Laravel Framework 5.5 and Up
 
 ## Bulma Extensions
 1. It is a set of missing [Bulma.io](https://bulma.io/) functionalities in the form of extensions. More info at [https://wikiki.github.io/](https://wikiki.github.io/)
-2. Adjust `bulma.sass`, `bulma-extensions.sass`, `bulma-extensions.js` and `app.js` as needed.
+2. Customize `bulma.sass`, `bulma-extensions.sass`, `bulma-extensions.js` and `app.js` as needed.
 
 ## Screenshots
 ![Bulma login screen](/screenshots/bulma_login_screen.jpg)
