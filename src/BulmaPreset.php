@@ -4,9 +4,10 @@ namespace LaravelFrontendPresets\BulmaPreset;
 use Artisan;
 use Illuminate\Support\Arr;
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Foundation\Console\Presets\Preset;
+use Laravel\Ui\UiCommand;
 
-class BulmaPreset extends Preset
+
+class BulmaPreset extends UICommand
 {
     /**
      * Install the preset.
@@ -15,7 +16,6 @@ class BulmaPreset extends Preset
      */
     public static function install($withAuth = false)
     {
-        static::updatePackages();
         static::updateSass();
         static::updateBootstrapping();
 
@@ -28,7 +28,6 @@ class BulmaPreset extends Preset
             static::updateWelcomePage();
         }
 
-        static::removeNodeModules();
     }
 
     /**
