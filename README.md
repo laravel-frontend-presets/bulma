@@ -8,7 +8,7 @@ Bulma Frontend Preset For Laravel Framework 5.5 and Up
 ## Usage
 1. Fresh install Laravel 5.5 (and up) and `cd` to your app.
 2. Install this preset via `composer require laravel-frontend-presets/bulma`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
-3. Use `php artisan preset bulma` for basic Bulma preset. **OR** Use `php artisan preset bulma-auth` for basic preset, Auth route entry and Bulma Auth views in one go.
+3. Use `php artisan ui bulma` for basic Bulma preset. **OR** Use `php artisan ui bulma-auth` for basic preset, Auth route entry and Bulma Auth views in one go.
 4. `npm install`
 5. `npm run dev`
 6. Configure your favorite database (mysql, sqlite etc.)
